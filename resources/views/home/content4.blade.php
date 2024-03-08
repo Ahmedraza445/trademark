@@ -1,10 +1,18 @@
 <div class="modal-overlay" id="overlay"></div>
 <div class="content2 text-center">
     <div class="text-center">
-        <h2 class="fw-700">Choose your plan</h2>
+        <h1>Choose your plan</h1>
         <p>We accommodate a variety of different payment options. You can book a free meeting to learn more</p>
     </div>
-    <div class="btn-series fs-14 w-100">
+    <div class="btn-series slider2 w-100">
+        <button class="btn-content4" onclick="showContent(0)">Trademark Registration</button>
+        <button class="btn-content4" onclick="showContent(1)">Copyright Registration</button>
+        <button class="btn-content4" onclick="showContent(2)">Company Formation</button>
+        <button class="btn-content4" onclick="showContent(3)">Trademark Search</button>
+        <button class="btn-content4" onclick="showContent(4)">Amazon Registry</button>
+        <button class="btn-content4" onclick="showContent(5)">Web Design Service</button>
+    </div>
+    <div class="btn-series md-slider w-100">
         <button class="btn-content4" onclick="showContent(0)">Trademark Registration</button>
         <button class="btn-content4" onclick="showContent(1)">Copyright Registration</button>
         <button class="btn-content4" onclick="showContent(2)">Company Formation</button>
@@ -13,7 +21,7 @@
         <button class="btn-content4" onclick="showContent(5)">Web Design Service</button>
     </div>
 
-    <div class="mt-6" style="margin-left: 6rem; margin-right: 6rem">
+    <div class="mt-6 mr-6 ml-6">
         <div class="content-div" id="content0">
             @include('home.plans.home')
         </div>

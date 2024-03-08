@@ -1,20 +1,18 @@
-<div class="formation">
+<section class="formation">
     <div class="overlay"></div>
-    <div class="container position-relative" style="max-width: 1250px;">
+    <div class="container position-relative">
         <div class="row justify-content-between align-items-center">
-            <div class="col-lg-7 col-md-12">
-                <div class="banner-content">
-                    <h1>Get<span> Company formation</span>
-                        Services To Establish Your Business <span>Structures Easily</span>
-                    </h1>
-                    <ul class="banner-list">
-                        <li>Company Formation Anywhere in the USA </li>
-                        <li>4 Different Organizational Setups </li>
-                        <li>1-Min Company Formation Application Process - Get Started Right Away</li>
-                    </ul>
-                </div>
+            <div class="col-lg-8 col-xl-7 col-md-8 col-sm-12 text-white text-left bg-h1">
+                <h1>Get<span> Company formation</span>
+                    Services To Establish Your Business <span>Structures Easily</span>
+                </h1>
+                <ul class="banner-list p-2">
+                    <li>Company Formation Anywhere in the USA </li>
+                    <li>4 Different Organizational Setups </li>
+                    <li>1-Min Company Formation Application Process - Get Started Right Away</li>
+                </ul>
             </div>
-            <div class="col-lg-5 col-xl-4">
+            <div class="col-lg-5 col-xl-4 sm-none">
                 <div class="form">
                     <div class="p-2 fs-11 ">
                         <h5 class="text-center">GET <b>TRADEMARK <br>
@@ -54,4 +52,4 @@
             </div>
         </div>
     </div>
-</div>
+</section>

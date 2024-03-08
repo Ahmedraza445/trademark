@@ -1,5 +1,10 @@
 <div class="text-center">
-    <div class="btn-series mt-30 mb-40">
+    <div class="btn-series slider2 w-100">
+        <button class="btn-content4" onclick="showButton(0)">Start up</button>
+        <button class="btn-content4" onclick="showButton(1)">Small Size Enterprise</button>
+        <button class="btn-content4" onclick="showButton(2)">Medium & Large Size Enterprise</button>
+    </div>
+    <div class="btn-series sm-none mt-30 mb-40">
         <button class="btn-content4" onclick="showButton(0)">Start up</button>
         <button class="btn-content4" onclick="showButton(1)">Small Size Enterprise</button>
         <button class="btn-content4" onclick="showButton(2)">Medium & Large Size Enterprise</button>

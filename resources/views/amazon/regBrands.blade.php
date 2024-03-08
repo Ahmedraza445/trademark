@@ -1,14 +1,14 @@
 <section class="mt-20">
     <div class="container mx-width">
         <div class="row align-items-center text-center">
-            <div class="col-md-12 col-lg-12">
-                <h2 class="mb-3">What makes us the finest brand?<br>
+            <div class="col-md-12 col-lg-12 col-sm-12 cont2">
+                <h1 class="mb-3">What makes us the finest brand?<br>
                     Amazon Registration
-                </h2>
+                </h1>
                 <p class="mb-5">We have secured several names on Amazon, and our customers are more than satisfied with
-                    our <br> services. At Legal Pro Trademark, we handle your brand as if it were our own and comprehend the <br>
+                    our services. At Legal Pro Trademark, we handle your brand as if it were our own and comprehend the
                     importance of brand security. </p>
-                <div class="row tr-cont pt-50">
+                <div class="row slider tr-cont pt-57">
                     <div class="col-md-6 col-lg-4 text-center">
                         <div class="s2-icon-box">
                             <div>

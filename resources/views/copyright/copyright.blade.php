@@ -1,21 +1,19 @@
 <div class="copyright">
     <div class="overlay"></div>
-    <div class="container position-relative" style="max-width: 1250px;">
+    <div class="container position-relative">
         <div class="row justify-content-between align-items-center">
-            <div class="col-lg-7 col-md-12">
-                <div class="banner-content">
-                    <h1><span>Copyright Registration </span>
-                        Services for Just $99! <span>Secure Your Creative Legacy.</span>
-                    </h1>
-                    <ul class="banner-list">
-                        <li>Seamless Copyright Registration Process</li>
-                        <li>Comprehensive Professional Preparation</li>
-                        <li>Certificate of Registration Included</li>
-                        <li>100% Success Rate Guaranteed</li>
-                    </ul>
-                </div>
+            <div class="col-lg-8 col-xl-7 col-md-8 col-sm-12 text-white text-left bg-h1">
+                <h1><span>Copyright Registration </span>
+                    Services for Just $99! <span>Secure Your Creative Legacy.</span>
+                </h1>
+                <ul class="banner-list p-2">
+                    <li>Seamless Copyright Registration Process</li>
+                    <li>Comprehensive Professional Preparation</li>
+                    <li>Certificate of Registration Included</li>
+                    <li>100% Success Rate Guaranteed</li>
+                </ul>
             </div>
-            <div class="col-lg-5 col-xl-4">
+            <div class="col-lg-5 col-xl-4 sm-none">
                 <div class="form">
                     <div class="p-2 fs-11 ">
                         <h5 class="text-center">GET <b>TRADEMARK <br>

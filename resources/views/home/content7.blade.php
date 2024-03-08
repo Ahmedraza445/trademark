@@ -1,8 +1,8 @@
 <div class="modal-overlay" id="overlay"></div>
 <div class="content7">
     <div class="container">
-        <div class="row p-5">
-            <div class="w-70 text-center text-white">
+        <div class="row cont2 p-5">
+            <div class="text-center text-white">
 
                 <h1>Is any Business Name Suitable for a Trademark?</h1>
 

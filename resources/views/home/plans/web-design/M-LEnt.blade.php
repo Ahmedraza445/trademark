@@ -46,7 +46,7 @@
             </div>
         </div>
     </div>
-    <div class="col-xl-4 col-lg-4">
+    <div class="col-xl-4 col-lg-4 mt6">
         <div class="package-box package-2">
             <div class="pckmain">
                 <div class="pck-head">
@@ -228,7 +228,7 @@
             </div>
         </div>
     </div>
-    <div class="col-xl-4 col-lg-4">
+    <div class="col-xl-4 col-lg-4 mt6">
         <div class="package-box package-3">
             <div class="pckmain">
                 <div class="pck-head">

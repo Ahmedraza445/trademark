@@ -2,10 +2,10 @@
     <div class="container mx-width">
         <div class="row align-items-center text-center">
             <div class="col-md-12 col-lg-12 effortless">
-                <h1 class="mb-3 fw-800">Effortless Trademark Registration with <br> Legal Pro Trademark</h1>
+                <h1 class="mb-3">Effortless Trademark Registration with <br> Legal Pro Trademark</h1>
                 <p class="mb-5">Embark on a journey of seamless trademark registration with Legal Pro Trademark, where the
                     process is as swift as our name suggests.</p>
-                <div class="row tr-cont pt-57">
+                <div class="effort row tr-cont pt-57">
                     <div class="col-md-6 col-lg-4 text-center">
                         <div class="s2-icon-box">
                             <div>

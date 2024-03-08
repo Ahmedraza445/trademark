@@ -1,8 +1,8 @@
-<div class="content9 p-4">
-    <div class="container" style="max-width: 1400px;">
+<div class="content9 p-4 mt-50">
+    <div class="container">
         <div class="row">
-            <div class="text-center text-white">
-                <h3>Client Feedback</h3>
+            <div class="text-center cont2 text-white">
+                <h1>Client Feedback</h1>
                 <p>With over 450k trademarks successfully registered, we've ensured the satisfaction of 450k clients.
                     Here's what some of them have to say:</p>
             </div>

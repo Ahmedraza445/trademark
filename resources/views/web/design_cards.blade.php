@@ -1,13 +1,13 @@
 <section class="mt-70">
     <div class="container mx-width">
         <div class="row align-items-center text-center">
-            <div class="col-md-12 col-lg-12">
-                <h2 class="mb-3">Ensure Uniqueness with Our Web Design Services!
-                </h2>
+            <div class="col-md-12 col-lg-12 cont2">
+                <h1 class="mb-3">Ensure Uniqueness with Our Web Design Services!
+                </h1>
                 <p class="mb-5">Our web development firm takes pride in crafting designs that embody the rich taste of
                     individuality, setting your brand apart. Renowned for their uniqueness, fascination, and
                     responsiveness, our designs surpass those of other firms.</p>
-                <div class="row tr-cont pt-50">
+                <div class="row slider tr-cont pt-57">
                     <div class="col-md-6 col-lg-4 text-center">
                         <div class="s2-icon-box">
                             <div>

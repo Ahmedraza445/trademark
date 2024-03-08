@@ -2,9 +2,21 @@
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
 <script>
-    // $('#openModal').click(function () {
-    //     $('#myModal').modal('show');
-    // });
+
+    document.addEventListener('click', function(event) {
+        var menuList = document.querySelector('.mobile-menu-list');
+        var menuIcon = document.querySelector('.menu-icon');
+
+        // Check if the click occurred outside the menu or on the menu-icon
+        if (!menuList.contains(event.target) && event.target !== menuIcon) {
+            menuList.style.display = 'none';
+        }
+    });
+
+    function toggleMenu() {
+        var menuList = document.querySelector('.mobile-menu-list');
+        menuList.style.display = (menuList.style.display === 'block') ? 'none' : 'block';
+    }
 
 
     function openModal() {
@@ -21,7 +33,7 @@
 
 
     // Payment Mode 1
-    $('#paymentMode1').on('click', function () {
+    $('#paymentMode1').on('click', function() {
         var packageName = "GOLD Package";
         var packagePrice = 49;
         document.getElementById('selectedPackage').style.display = 'flex';
@@ -33,7 +45,7 @@
 
 
     // Payment Mode 2
-    $('#paymentMode2').on('click', function () {
+    $('#paymentMode2').on('click', function() {
         console.log("Button clicked");
         var packageName = "PLATINUM Package";
         var packagePrice = 149;
@@ -46,7 +58,7 @@
 
 
     // Payment Mode 3
-    $('#paymentMode3').on('click', function () {
+    $('#paymentMode3').on('click', function() {
         console.log("Button clicked");
         var packageName = "DIAMOND Package";
         var packagePrice = 199;
@@ -59,7 +71,7 @@
 
 
     // Payment Mode 4
-    $('#paymentMode4').on('click', function () {
+    $('#paymentMode4').on('click', function() {
         console.log("Button clicked");
         var packageName = "ELITE Package";
         var packagePrice = 349;
@@ -72,7 +84,7 @@
 
 
     //Service Mode 1 
-    $('#service1').on('click', function () {
+    $('#service1').on('click', function() {
         var serviceName = "Federal & State Search";
         var servicePrice = 149;
         document.getElementById('selectedService').style.display = 'flex';
@@ -85,7 +97,7 @@
 
 
     //Service Mode 2 
-    $('#service2').on('click', function () {
+    $('#service2').on('click', function() {
         var serviceName = "State & Common Law Search";
         var servicePrice = 299;
         document.getElementById('selectedService').style.display = 'flex';
@@ -97,7 +109,7 @@
 
 
     //Service Mode 3 
-    $('#service3').on('click', function () {
+    $('#service3').on('click', function() {
         var serviceName = "Global Search";
         var servicePrice = 499;
         console.log(serviceName, servicePrice);
@@ -109,7 +121,7 @@
     });
 
 
-    $('#step2Submit').on('click', function () {
+    $('#step2Submit').on('click', function() {
         var packageName = document.getElementById("packageName").innerText;
         var packagePrice = document.getElementById("packagePrice").innerText;
         var serviceName = document.getElementById("serviceName").innerText;
@@ -122,7 +134,7 @@
             serviceName: serviceName,
             servicePrice: servicePrice,
             totalPrice: totalPrice,
-            order_id: '{{ session("order_id") }}',
+            order_id: '{{ session('order_id') }}',
         };
 
         // Send AJAX request
@@ -133,17 +145,17 @@
                 'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
             },
             data: postData,
-            success: function (response) {
+            success: function(response) {
                 window.location.href = '/register/step3/{order_id}';
             },
-            error: function (error) {
+            error: function(error) {
                 // Handle error response from the server
                 console.error('Error:', error);
             }
         });
     })
 
-    $('#step3Submit').on('click', function () {
+    $('#step3Submit').on('click', function() {
         var card = $("#cardType").val();
         var cardName = $("#cardName").val();
         var cardNumber = $("#cardNumber").val();
@@ -166,7 +178,7 @@
             city: city,
             zipCode: zipCode,
             address: address,
-            order_id: '{{ session("order_id") }}',
+            order_id: '{{ session('order_id') }}',
         };
         $.ajax({
             type: 'POST',
@@ -175,13 +187,13 @@
                 'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
             },
             data: postData,
-            success: function (response) {
+            success: function(response) {
                 window.location.href = '/thankyou';
-                setTimeout(function () {
-                    window.location.href = '/thankyou';
-                }, 100);
+                // setTimeout(function () {
+                //     window.location.href = '/thankyou';
+                // }, 100);
             },
-            error: function (error) {
+            error: function(error) {
                 console.error('Error:', error);
             }
         });
@@ -362,14 +374,14 @@
 
 
     // Packages Display 
-    document.addEventListener('DOMContentLoaded', function () {
+    document.addEventListener('DOMContentLoaded', function() {
         showContent(0);
         showButton(2);
     });
 
     function showContent(index) {
         var contentDivs = document.querySelectorAll('.content-div');
-        contentDivs.forEach(function (div) {
+        contentDivs.forEach(function(div) {
             div.style.display = 'none';
         });
 
@@ -383,7 +395,7 @@
     // Packages Display (Web Design Service)
     function showButton(index) {
         var contentDivs = document.querySelectorAll('.content2-div');
-        contentDivs.forEach(function (div) {
+        contentDivs.forEach(function(div) {
             div.style.display = 'none';
         });
 
@@ -400,12 +412,12 @@
 
 
     // Menu Bar (Header)
-    document.addEventListener('scroll', function () {
+    document.addEventListener('scroll', function() {
         var scrollPosition = window.scrollY;
         var header = document.querySelector('.header');
 
         if (header) {
-            if (scrollPosition > 100) {
+            if (scrollPosition > 70) {
                 header.style.background = '#000';
                 header.style.padding = '0 0';
             } else {
@@ -455,5 +467,4 @@
     //         addButton.removeEventListener("click", addInput);
     //     }
     // }
-
 </script>

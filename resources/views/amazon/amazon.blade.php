@@ -1,19 +1,17 @@
 <div class="amazon">
     <div class="overlay"></div>
-    <div class="container position-relative" style="max-width: 1250px;">
+    <div class="container position-relative">
         <div class="row justify-content-between align-items-center">
-            <div class="col-lg-7 col-md-12">
-                <div class="banner-content">
-                    <h1>Unlock Your Seller Status with Our Quick <span>Amazon Brand </span><span>Registry
-                            Services</span></h1>
-                    <ul class="banner-list">
-                        <li>Experience the fastest Amazon brand registry process </li>
-                        <li>Guaranteed 100% revenue boost </li>
-                        <li>Fortify your ads and income with maximum protection</li>
-                    </ul>
-                </div>
+            <div class="col-lg-8 col-xl-7 col-md-8 col-sm-12 text-white text-left bg-h1">
+                <h1>Unlock Your Seller Status with Our Quick <span>Amazon Brand </span><span>Registry
+                        Services</span></h1>
+                <ul class="banner-list p-2">
+                    <li>Experience the fastest Amazon brand registry process </li>
+                    <li>Guaranteed 100% revenue boost </li>
+                    <li>Fortify your ads and income with maximum protection</li>
+                </ul>
             </div>
-            <div class="col-lg-5 col-xl-4">
+            <div class="col-lg-5 col-xl-4 sm-none">
                 <div class="form">
                     <div class="p-2 fs-11 ">
                         <h5 class="text-center">GET <b>TRADEMARK <br>

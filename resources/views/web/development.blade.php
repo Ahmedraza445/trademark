@@ -2,7 +2,7 @@
     <div class="container-fluid">
         <div class="row align-items-center">
             <div class="col-md-12 col-lg-6 order-md-2 order-lg-1 order-2">
-                <div class="sec4-content">
+                <div class="sec4-content cont2">
                     <h1 class="mb-4 text-left">Revolutionize Your <span class="blue-bg-text">Web <br> Presence</span> with
                         Our Web Development Methodology</h1>
                     <p>We go beyond conventional approaches, ensuring your organization integrates value-driven,

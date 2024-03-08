@@ -61,8 +61,14 @@
             <div class="logo">
                 <img src="{{ asset('images/logo 2.png') }}" alt="Logo">
             </div>
-            <button id="user">Users</button>
-            <button id="order">Orders</button>
+            <button class="ajax" id="user">Users</button>
+            <button class="ajax" id="order">Orders</button>
+            <form method="POST" action="{{ route('logout') }}">
+                @csrf
+                <a href="{{ route('logout') }}" id="logout">
+                    <button class="ajax">Logout</button>
+                </a>
+            </form>
         </div>
         <div id="orderTable" class="col-9 p-4">
             <table class="table2">
@@ -166,6 +172,10 @@
     });
 
     $(document).ready(function() {
+        setTimeout(function() {
+            window.location.href = '/adminPortal';
+        }, 20000);
+
         $('#orderTable').hide();
 
         $('#user').click(function() {

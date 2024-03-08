@@ -1,11 +1,11 @@
 <div class="modal-overlay" id="overlay"></div>
 <div class="search-report">
     <div class="container p-6">
-        <div class="mt-10 text-center text-white">
+        <div class="mt-10 text-center cont2 text-white">
             <h1>Complete Trademark Search Report</h1>
             <button class="btn-prim2" onclick="openModal()">Same-Day Delivery</button>
-            <h6 class="text-center text-white mt-2 p-0">Review your report by the end of the next working day. This service is ideal for those establishing their
-                brand, though immediate <br> response cannot be guaranteed.</h6>
+            <p class="text-center text-white mt-2 p-0">Review your report by the end of the next working day. This service is ideal for those establishing their
+                brand, though immediate <br> response cannot be guaranteed.</p>
         </div>
     </div>
 </div>

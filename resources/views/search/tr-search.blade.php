@@ -1,21 +1,20 @@
 <section class="search">
     <div class="overlay"></div>
-    <div class="container position-relative" style="max-width: 1250px;">
+    <div class="container position-relative">
         <div class="row justify-content-between align-items-center">
-            <div class="col-lg-7 col-md-12">
-                <div class="banner-content">
-                    <h1>
-                        Avail<span> Trademark Search </span>
-                        Services for <span>Just $149</span>
-                    </h1>
-                    <ul class="banner-list">
-                        <li>Research Report for a Unique Brand</li>
-                        <li>100% Success Rate Guarantee</li>
-                        <li>24/7 Support and Live Chat Now</li>
-                    </ul>
-                </div>
+            <div class="col-lg-8 col-xl-7 col-md-8 col-sm-12 text-white text-left bg-h1">
+                <h1>
+                    Avail<span> Trademark Search </span>
+                    Services for <span>Just $149</span>
+                </h1>
+                <ul class="banner-list text-white p-2">
+                    <li>Research Report for a Unique Brand</li>
+                    <li>100% Success Rate Guarantee</li>
+                    <li>24/7 Support and Live Chat Now</li>
+                </ul>
             </div>
-            <div class="col-lg-5 col-xl-4">
+            <div class="col-xl-1"></div>
+            <div class="col-lg-4 col-xl-4 col-md-4 sm-none">
                 <div class="form">
                     <div class="p-2 fs-11 ">
                         <h5 class="text-center">GET <b>TRADEMARK <br>

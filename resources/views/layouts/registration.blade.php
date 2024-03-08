@@ -21,27 +21,27 @@
 
 <body style="font-family: Poppins, sans-serif !important;">
 
-    <header class="header2 bgc-header">
+    <header class="header2 bgc-header sm-none">
         <div class="container">
                 <a href="/">
                     <img src="{{ asset('images/logo 2.png') }}" alt="" width="10%">
                 </a>
         </div>
     </header>
-    <div class="container">
+    <div class="container sm-none">
         <div class="row justify-content-center">
             <div class="col-10">
                 <ul class="steps-list p-0 place-content-center" style="text-align: -webkit-center;">
-                    <li>
+                    {{-- <li>
                         <p class="text2 text-white">1</p>
                         <p>Contact Details</p>
-                    </li>
+                    </li> --}}
                     <li>
-                        <p class="text2 text-white">2</p>
+                        <p class="text2 text-white">1</p>
                         <p>Trademark Details</p>
                     </li>
                     <li>
-                        <p class="text2 text-white">3</p>
+                        <p class="text2 text-white">2</p>
                         <p>Service Details</p>
                     </li>
                     <li>

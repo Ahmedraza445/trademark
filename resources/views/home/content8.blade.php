@@ -1,9 +1,9 @@
 <div class="modal-overlay" id="overlay"></div>
-<div class="container">
-    <div class="row p-5">
-        <h1 class="text-center">Why Choose Us</h1>
-        <div class="d-flex mt-4">
-            <div class="col-4 my-2 card2 border p-0">
+<div class="container mt-70">
+    <div class="row cont2">
+        <h1 class="text-center mb-4">Why Choose Us</h1>
+        <div class="effort">
+            <div class="card-comment2 p-0">
                 <div class="card-image1">
                 </div>
                 <div class="p-4 choose-content">
@@ -17,7 +17,7 @@
                         comprehensive protection</p>
                 </div>
             </div>
-            <div class="col-4 my-2 card2 border ml-4 p-0">
+            <div class="card-comment2 p-0">
                 <div class="card-image2">
                 </div>
                 <div class="p-4 choose-content">
@@ -28,10 +28,9 @@
                     </div>
                     <p>Prevent costly redesigns by avoiding infringement on existing Trademarks. Utilize our
                         expertise in Trademark Monitoring Service to proactively safeguard your brand.</p>
-                    <div class="mt-97"></div>
                 </div>
             </div>
-            <div class="col-4 my-2 card2 border ml-4 p-0">
+            <div class="card-comment2 p-0">
                 <div class="card-image3">
                 </div>
                 <div class="p-4 choose-content">
@@ -59,21 +58,20 @@
                 onclick="closeModal()"></button>
             <div class="modal-body">
                 <div class="logo-pop text-center mb-5 mt-3">
-                    <!-- <img loading="lazy" src="{{ asset('images/trademark-instant.png') }}"
-                        alt="Trademark filing" width="200" height=""> -->
+                    
                 </div>
                 <form action="{{ route('register.submit') }}" method="post">
                     @csrf
-                    <input class="form-control mt-3 fs-14" type="text" id="name" name="name"
+                    <input class="form-control mt-3" type="text" id="name" name="name"
                         placeholder="Enter Your Full Name" required>
-                    <input class="form-control mt-10 fs-14" type="email" id="email" name="email"
+                    <input class="form-control mt-10" type="email" id="email" name="email"
                         placeholder="Enter Your Email Address" required>
                     <div class="d-flex mt-10">
-                        <select class="form-control w-30 fs-14" name="contact">
+                        <select class="form-input w-50" name="contact">
                             <option value="+1" data-country-code="US" data-country-dial-code="+1">US
                                 (+1)</option>
                         </select>
-                        <input class="form-control fs-14" type="text" id="remainingNumbers" name="remainingNumbers"
+                        <input class="form-control" type="text" id="remainingNumbers" name="remainingNumbers"
                             placeholder="Phone Number">
                     </div>
                     <div class="mt-25 text-center">

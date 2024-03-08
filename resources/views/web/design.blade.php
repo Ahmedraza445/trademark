@@ -1,18 +1,16 @@
 <div class="web-design">
     <div class="overlay"></div>
-    <div class="container position-relative" style="max-width: 1250px;">
+    <div class="container position-relative">
         <div class="row justify-content-between align-items-center">
-            <div class="col-lg-7 col-md-12">
-                <div class="banner-content">
-                    <h1>Elevate Your Online Presence with Our Tailored <span>Website Design Services </span></h1>
-                    <ul class="banner-list mb-frty">
-                        <li>Captivating Designs for Unforgettable User Experience</li>
-                        <li>Drive Business Success with Our Proven Expertise </li>
-                        <li>Unlock Affordable Excellence with Packages Starting at Just $99</li>
-                    </ul>
-                </div>
+            <div class="col-lg-8 col-xl-7 col-md-8 col-sm-12 text-white text-left bg-h1">
+                <h1>Elevate Your Online Presence with Our Tailored <span>Website Design Services </span></h1>
+                <ul class="banner-list p-2">
+                    <li>Captivating Designs for Unforgettable User Experience</li>
+                    <li>Drive Business Success with Our Proven Expertise </li>
+                    <li>Unlock Affordable Excellence with Packages Starting at Just $99</li>
+                </ul>
             </div>
-            <div class="col-lg-5 col-xl-4">
+            <div class="col-lg-5 col-xl-4 sm-none">
                 <div class="form">
                     <div class="p-2 fs-11 ">
                         <h5 class="text-center">GET <b>TRADEMARK <br>

@@ -69,6 +69,7 @@ class Kernel extends HttpKernel
     protected $routeMiddleware = [
         // Other middleware entries...
         'registration' => \App\Http\Middleware\RegistrationMiddleware::class,
+        'session' => \App\Http\Middleware\SessionMiddleware::class,
     ];
     
 

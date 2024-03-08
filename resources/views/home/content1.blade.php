@@ -1,23 +1,22 @@
-<div class="content1 col-sm-12" style="max-width: 1600px">
+<div class="content1">
     <div class="overlay"></div>
-    <div class="row container position-relative" style="max-width: 1250px">
+    <div class="container position-relative">
         <div class="row justify-content-between align-items-center">
-            <div class="col-lg-7 col-xl-7 col-md-12 col-sm-12text-white">
-                <div class="banner-content">
-                    <h1 class="mb-40">Register Your <span> Trademark</span>
-                        Business Name Application
-                        Today for <span class="cl-iPrimary">Low as $49</span></h1>
-                    <ul class="banner-list mb-40">
-                        <li>Streamlined and Hassle-Free Trademark Registration Application Process in Just 1 Minute</li>
-                        <li>Exceptional Trademark Registration Services for Logo, Symbol &amp; Business Name</li>
-                        <li>Trademark Registration at the United States Patent and Trademark Office in Just $49</li>
-                        <li>Our Team Boasts 56+ Trademark Attorney Awards, Ensuring Top-Tier Expertise</li>
-                    </ul>
-                </div>
+            <div class="col-lg-8 col-xl-8 col-md-8 col-sm-12 text-white text-left bg-h1">
+                <h1>Register Your <span> Trademark</span>
+                    Business Name Application
+                    Today for <span class="cl-iPrimary">Low as $49</span></h1>
+                    <br>
+                <ul class="banner-list text-white p-2">
+                    <li>Streamlined and Hassle-Free Trademark Registration Application Process in Just 1 Minute</li>
+                    <li>Exceptional Trademark Registration Services for Logo, Symbol &amp; Business Name</li>
+                    <li>Trademark Registration at the United States Patent and Trademark Office in Just $49</li>
+                    <li>Our Team Boasts 56+ Trademark Attorney Awards, Ensuring Top-Tier Expertise</li>
+                </ul>
             </div>
-            <div class="col-lg-5 col-xl-4 col-sm-12">
+            <div class="col-lg-4 col-xl-4 col-md-4 sm-none">
                 <div class="form">
-                    <div class="p-2 fs-11 ">
+                    <div class="p-2 fs-11">
                         <h5 class="text-center">GET <b>TRADEMARK <br>
                                 REGISTRATION</b> IN <span class="cl-blue"><b>JUST $49!</b></span></h5>
                         <h6 class="text-center">

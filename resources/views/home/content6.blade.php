@@ -1,15 +1,15 @@
 <div class="modal-overlay" id="overlay"></div>
 <section class="sec-5 ptb">
-    <div class="row align-items-center justify-content-center">
-        <div class="col-md-12 col-lg-8">
-            <div class="sec5-cont">
-                <h1 class="text-left">1-Minute Trademark <br>Registration Process</h1>
+    <div class="row align-items-center justify-content-center m-0">
+        <div class="col-md-12 col-lg-8 col-sm-12">
+            <div class="sec5-cont cont2">
+                <h1>1-Minute Trademark <br>Registration Process</h1>
                 <p>Registering your trademark is a breeze with us. Simply provide your brand name, and our best
                     trademark attorneys will handle the entire process promptly. Enjoy the added benefit of payment
                     plan flexibility as you pay at your ease.</p>
                 <div class="sec5-border text-center mt-4">
-                    <div class="row">
-                        <div class="col-md-4 br pt-4">
+                    <div class="row m-0">
+                        <div class="col-md-4 col-sm-8 border pt-4">
                             <div class="steps-box">
                                 <div>
                                     <h3 class="mb-2">Step 1</h3>
@@ -17,7 +17,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4 br pt-4">
+                        <div class="col-md-4 col-sm-8 border pt-4">
                             <div class="steps-box">
                                 <div>
                                     <h3 class="mb-2">Step 2</h3>
@@ -25,7 +25,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4 pt-4">
+                        <div class="col-md-4 col-sm-8 border pt-4">
                             <div class="steps-box laststep">
                                 <div>
                                     <h3 class="mb-2">Step 3</h3>
@@ -35,14 +35,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="mt-4"><a class="btn-prim t-dec-none" data-bs-toggle="modal"
-                        data-bs-target="#exampleModal" style="display: inline-block;" onclick="openModal()">Avail
+                <div class="mt-4 text-center"><a class="btn-prim t-dec-none" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                        style="display: inline-block;" onclick="openModal()">Avail
                         Now!</a></div>
             </div>
         </div>
-        <div class="col-md-12 col-lg-4 order-1 order-md-1 order-lg-2" style="text-align: -webkit-center;">
-            <img class="img-fluid sec-5-img-2" src="{{ asset ('images/operate.jpg') }}"
-                width="625px" height="547px" alt="Trademark filing">
+        <div class="col-md-12 col-lg-4 order-1 order-md-1 order-lg-2 sm-none" style="text-align: -webkit-center;">
+            <img class="img-fluid sec-5-img-2" src="{{ asset('images/operate.jpg') }}" width="625px" height="547px"
+                alt="Trademark filing">
         </div>
     </div>
 

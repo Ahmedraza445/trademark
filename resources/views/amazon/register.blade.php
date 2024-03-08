@@ -1,7 +1,7 @@
 <section class="why-register mt-70 pb-5">
-    <div class="container">
+    <div class="container cont3">
         <h2 class="text-center mb-5">Why Should You Register Your Brand With Amazon?</h2>
-        <div class="row">
+        <div class="row slider">
             <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
                 <div class="why-reg-cont">
                     <div class="sm-img">

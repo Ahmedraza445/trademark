@@ -2,14 +2,14 @@
 <div class="content5 mt-50" >
     <div class="container">
         <div class="row">
-            <div class="w-60 text-center text-white">
+            <div class="w-60 cont2 text-center text-white">
 
                 <h1>Benefits of Registering Your <br>
                     Trademark with Us</h1>
     
-                <p>We take pride in being recognized as the official USPTO trademark firm. Our expert <br> team is dedicated to
-                    ensuring the security and visibility of your brand. Experience <br> the advantages of registering your
-                    trademark with us today, including services such <br> as Trademark Business Name, Symbol, and Logo
+                <p>We take pride in being recognized as the official USPTO trademark firm. Our expert team is dedicated to
+                    ensuring the security and visibility of your brand. Experience the advantages of registering your
+                    trademark with us today, including services such as Trademark Business Name, Symbol, and Logo
                     registration.</p>
 
                     <div class="mt-4">
@@ -19,8 +19,7 @@
         </div>
     </div>
 </div>
-
-<div id="myModal" class="modal" style="display: none; justify-content:center; ">
+<div id="myModal" class="modal" style="display: none; justify-content:center;">
         <div class="modal-content">
             <button type="button" class="btn-close btn-close-ctm" data-bs-dismiss="modal" aria-label="Close"
                 onclick="closeModal()"></button>

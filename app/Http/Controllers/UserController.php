@@ -16,15 +16,11 @@ class UserController extends Controller
      */
     public function index()
     {
-    //    $user = User::get();
+       $trademark = TradeMarkOrder::with('user')->orderBy('order_id', 'desc')->get();
 
-    //    $trademark = TradeMarkOrder::get();
-       $trademark = TradeMarkOrder::with('user')->get();
+       $user = User::orderBy('id', 'desc')->get();
 
-       $user = User::get();
-    //    dd($user);
        return view('adminPortal', ['trademark' => $trademark, 'user' => $user]);
-    //    return view('adminPortal', ['user' => $user]);
     }
 
     /**
